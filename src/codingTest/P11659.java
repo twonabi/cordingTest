@@ -11,14 +11,18 @@ public class P11659 {
                 new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer stringTokenizer =
                 new StringTokenizer(bufferedReader.readLine());
+
         int suNo = Integer.parseInt(stringTokenizer.nextToken());
         int quizNo = Integer.parseInt(stringTokenizer.nextToken());
         long[]S = new long[suNo + 1];
+
         stringTokenizer =
                 new StringTokenizer(bufferedReader.readLine());
+
         for (int i = 1; i <=suNo ; i++) {
             S[i] = S[i-1] + Integer.parseInt(stringTokenizer.nextToken());
         }
+
         for (int q = 0; q < quizNo; q++) {
             stringTokenizer =
                     new StringTokenizer(bufferedReader.readLine());
