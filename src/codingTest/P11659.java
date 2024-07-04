@@ -14,7 +14,7 @@ public class P11659 {
 
         int suNo = Integer.parseInt(stringTokenizer.nextToken());
         int quizNo = Integer.parseInt(stringTokenizer.nextToken());
-        long[]S = new long[suNo + 1];
+        long[] S = new long[suNo + 1];
 
         stringTokenizer =
                 new StringTokenizer(bufferedReader.readLine());
