@@ -55,6 +55,8 @@ public class P1717 {
         a = find(a);
         b = find(b);
 
+        // if (a==b) return true;
+        //        return false;  이 두줄의 코드를 아래의 한줄 코드로 정리 할 수 있다.
         return a == b;
     }
 }
